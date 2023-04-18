@@ -1,0 +1,36 @@
+%YAML 1.1
+--- !Material &1
+name: 嘴巴
+guid: {a: 5291874249211108063, b: 4143225719951616687}
+xshader: {localId: 1, path: 00000000-0000-0000-0000-000000000014--00000000-0000-0000-0000-000000000014.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 5219901296545386233, b: 12663457152369869999}
+  floatmap:
+    __class: Map
+    _Opacity: 1
+    _Rotation: 0
+  vec4map:
+    __class: Map
+    _BaseColor: {x: 1, y: 1, z: 1, w: 1}
+  vec3map:
+    __class: Map
+    _MeshRescale: {x: 2.52, y: 1.2, z: 1}
+  vec2map:
+    __class: Map
+    _Offset: {x: 0, y: 0}
+    _TextureRescale: {x: 0.83, y: 0.4762}
+    _Tiling: {x: 1, y: 1}
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    _BaseTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000028--00000000-0000-0000-0000-000000000028.png}
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+mshaderPath: ""
+instanceCount: 0

@@ -1,0 +1,61 @@
+{
+	"name": "Pow",
+	"id": "fa93c430-ae26-fbaa-a8a1-38b1d987fb5b",
+	"inputs": [
+		{
+			"name": "A",
+			"type": "Double",
+			"item_type": "",
+			"default_value": "0",
+			"dynamic": true,
+			"description": "The value to raise to the power of B",
+			"displayType": "Number",
+			"nameKey": "graph_pow_input_a",
+			"descriptionKey": "graph_pow_input_a_description",
+			"displayTypeKey": "graph_type_number"
+		},
+		{
+			"name": "B",
+			"type": "Double",
+			"item_type": "",
+			"default_value": "0",
+			"dynamic": true,
+			"description": "The power to raise A",
+			"displayType": "Number",
+			"nameKey": "graph_pow_input_b",
+			"descriptionKey": "graph_pow_input_b_description",
+			"displayTypeKey": "graph_type_number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Pow",
+			"type": "Double",
+			"item_type": "",
+			"dynamic": true,
+			"description": "The result of A raised to the power of B",
+			"displayType": "Number",
+			"nameKey": "graph_pow_output_pow",
+			"descriptionKey": "graph_pow_output_pow_description",
+			"displayTypeKey": "graph_type_number"
+		}
+	],
+	"lua": "CGPower.lua",
+	"js": "CGPower.js",
+	"version": "1.0.1",
+	"luaFuncName": "CGPower",
+	"category": "Math",
+	"description": "Calculate the exponentiation with base and power value.",
+	"supportedValueTypes": [
+		"Double",
+		"Int"
+	],
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"nameKey": "graph_pow_name",
+	"categoryKey": "graph_category_math",
+	"descriptionKey": "graph_pow_description"
+}

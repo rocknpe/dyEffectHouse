@@ -1,0 +1,96 @@
+{
+	"name": "For Loop",
+	"id": "a87c44a8-e95b-48e9-5ea4-014a2a2d03ea",
+	"inputs": [
+		{
+			"name": "Enter",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "The input execution that triggers this node",
+			"displayType": "Exec",
+			"nameKey": "graph_for_loop_input_enter",
+			"descriptionKey": "graph_for_loop_input_enter_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "i =",
+			"type": "Int",
+			"item_type": "",
+			"default_value": "0",
+			"description": "The initial index of the loop",
+			"displayType": "Number",
+			"nameKey": "graph_for_loop_input_i",
+			"descriptionKey": "graph_for_loop_input_i_description",
+			"displayTypeKey": "graph_type_number"
+		},
+		{
+			"name": "i <",
+			"type": "Int",
+			"item_type": "",
+			"default_value": "5",
+			"description": "Keep looping if i is smaller than this number",
+			"displayType": "Number",
+			"nameKey": "graph_for_loop_input_i_1",
+			"descriptionKey": "graph_for_loop_input_i_1_description",
+			"displayTypeKey": "graph_type_number"
+		},
+		{
+			"name": "Step",
+			"type": "Int",
+			"item_type": "",
+			"default_value": "1",
+			"description": "The incremental value for each iteration",
+			"displayType": "Number",
+			"nameKey": "graph_for_loop_input_step",
+			"descriptionKey": "graph_for_loop_input_step_description",
+			"displayTypeKey": "graph_type_number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Next",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Execute the next node when the loop has completed",
+			"displayType": "Exec",
+			"nameKey": "graph_for_loop_output_next",
+			"descriptionKey": "graph_for_loop_output_next_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Body",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Execute the next node in each iteration",
+			"displayType": "Exec",
+			"nameKey": "graph_for_loop_output_body",
+			"descriptionKey": "graph_for_loop_output_body_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Index",
+			"type": "Int",
+			"item_type": "",
+			"description": "The current index of the loop",
+			"displayType": "Number",
+			"nameKey": "graph_for_loop_output_index",
+			"descriptionKey": "graph_for_loop_output_index_description",
+			"displayTypeKey": "graph_type_number"
+		}
+	],
+	"lua": "CGForLoop.lua",
+	"js": "CGForLoop.js",
+	"version": "1.0.1",
+	"amazingVersion": "10.40.0",
+	"luaFuncName": "CGForLoop",
+	"category": "Control",
+	"description": "Execute a loop in one frame for each index between the first index and the last index.",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"nameKey": "graph_for_loop_name",
+	"categoryKey": "graph_category_control",
+	"descriptionKey": "graph_for_loop_description"
+}

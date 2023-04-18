@@ -1,0 +1,30 @@
+%YAML 1.1
+--- !Material &1
+name: Default Material
+guid: {a: 4707355568123998048, b: 7868900870043075770}
+xshader: {localId: 1, path: 00000000-0000-0000-0000-0000000000f1--00000000-0000-0000-0000-0000000000f1.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 4921219916819733062, b: 16756534604363669915}
+  floatmap:
+    __class: Map
+  vec4map:
+    __class: Map
+    _AlbedoColor: {x: 1, y: 1, z: 1, w: 1}
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+  AE_AMAZING_USE_BONES: !<str> 1
+mshaderPath: ""
+instanceCount: 0

@@ -1,0 +1,63 @@
+{
+  "projectId": "0ee6b91c-a1fa-1997-3eae-99b49f977885",
+  "isFromTemplate": false,
+  "templateId": "templateID_none",
+  "opMap": {
+    "AddEntity": {
+      "count": 30,
+      "seed": "1yk4omgs"
+    },
+    "AddComponent": {
+      "count": 15,
+      "seed": "xnx5l6d5"
+    },
+    "SceneDefault": {
+      "count": 136,
+      "seed": "m0be4a4d"
+    },
+    "PropertyChange": {
+      "count": 50,
+      "seed": "bj3thoxr"
+    },
+    "PortChange": {
+      "count": 797,
+      "seed": "o6wq7mjz"
+    },
+    "AddNode": {
+      "count": 564,
+      "seed": "6m2txx8c"
+    },
+    "GroupNodes": {
+      "count": 1,
+      "seed": "6txcw4xa"
+    },
+    "AddEdge": {
+      "count": 910,
+      "seed": "slb6tib8"
+    },
+    "RemoveNode": {
+      "count": 285,
+      "seed": "e2n6q2bx"
+    },
+    "RemoveEdge": {
+      "count": 618,
+      "seed": "0ji501t6"
+    },
+    "ParamChange": {
+      "count": 25,
+      "seed": "561gtvmp"
+    },
+    "GraphDefault": {
+      "count": 10,
+      "seed": "yieknvz3"
+    },
+    "RemoveComponent": {
+      "count": 9,
+      "seed": "ht6e158g"
+    },
+    "RemoveEntity": {
+      "count": 5,
+      "seed": "mpdjob7i"
+    }
+  }
+}

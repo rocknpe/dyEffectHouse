@@ -1,0 +1,29 @@
+%YAML 1.1
+--- !Material &1
+name: 液化插件材质
+guid: {a: 4878027797806422199, b: 13379613218619476650}
+xshader: {localId: 1, path: 00000000-0000-0000-0000-0000000000l2--00000000-0000-0000-0000-0000000000l2.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 5445237459231035048, b: 13615807570544851840}
+  floatmap:
+    __class: Map
+  vec4map:
+    __class: Map
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+  AE_AMAZING_USE_BONES: !<str> 1
+mshaderPath: ""
+instanceCount: 0

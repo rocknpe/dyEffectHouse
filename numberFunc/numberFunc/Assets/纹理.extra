@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "0d06a924-b8a4-7fcd-e22f-e3a50c622df7",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "纹理",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "createdBy": "Unregistered",
+    "objGuid": ""
+  }
+]

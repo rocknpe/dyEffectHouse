@@ -1,0 +1,35 @@
+%YAML 1.1
+--- !Material &1
+name: 脸部抠图
+guid: {a: 5520253591347632931, b: 16715764452767000202}
+xshader: {localId: 1, path: 00000000-0000-0000-0000-000000000013--00000000-0000-0000-0000-000000000013.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 5295137341565984891, b: 15641451056223870387}
+  floatmap:
+    __class: Map
+    _Rotation: 0
+  vec4map:
+    __class: Map
+    _TintColor: {x: 1, y: 1, z: 1, w: 1}
+  vec3map:
+    __class: Map
+    _MeshRescale: {x: 1, y: 1, z: 1}
+  vec2map:
+    __class: Map
+    _Offset: {x: 0, y: 0}
+    _TexRescale: {x: 1, y: 1}
+    _Tiling: {x: 1, y: 1}
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    _FacePaintTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000023--00000000-0000-0000-0000-000000000023.png}
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+mshaderPath: ""
+instanceCount: 0
